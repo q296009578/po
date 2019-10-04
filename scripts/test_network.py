@@ -39,3 +39,23 @@ class TestNetwork:
         self.display_page.click_first_network()
         # 点击3G
         self.display_page.click_3g()
+        
+    def test_mobile_network_5g(self):
+        # 点击更多
+        self.display_page.click_more()
+        # 点击移动网络
+        self.display_page.click_network()
+        # 点击首选网络类型
+        self.display_page.click_first_network()
+        # 点击3G
+        self.display_page.click_3g()
+        
+    def test_mobile_network_6g(self):
+        # 点击更多
+        self.display_page.click_more()
+        # 点击移动网络
+        self.display_page.click_network()
+        # 点击首选网络类型
+        self.display_page.click_first_network()
+        # 点击3G
+        self.display_page.click_3g()
